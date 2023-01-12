@@ -5,6 +5,7 @@
         <title>MyLoveSoccer</title>
     </head>
     <body>
+        <header>Futbol!</header>
         <main>
             <section>
                 <h1>I Love Soccer!</h1>
@@ -41,9 +42,25 @@
             </section>
             <section>
                 <form action="submit">
-                    
+                    <fieldset>
+                        <legend>Messi or C.Ronaldo?</legend>
+                        <label><input type="radio" name="messi" value="messi"> Messi</label>
+                        <label><input type="radio" name="ronaldo" value="ronaldo"> C. Ronaldo</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Check the boxes of the teams you like.</legend>
+                        <label><input type="checkbox" name="barcelona" value="barcelona"> FC Barcelona</label>
+                        <label><input type="checkbox" name="realMadrid" value="realMadrid"> Real Madrid</label>
+                        <label><input type="checkbox" name="juventus" value="juventus"> Juventus</label>
+                        <label><input type="checkbox" name="acMilan" value="acMilan"> AC Milan</label>
+                        <label><input type="checkbox" name="arsenal" value="arsenal"> Arsenal</label>
+                        <label><input type="checkbox" name="manU" value="manU"> Manchester United</label>
+                    </fieldset>
+                    <input type="text" value="teamURL" placeholder="Upload your favorite teams website">
+                    <button type="submit">Submit</button>
                 </form>
             </section>
         </main>
+        <footer><p>No Copyright -- ArsenalForTheWin!.edu</p></footer>
     </body>
 </html>
